@@ -14,7 +14,7 @@ def find_euclidean_distance(formatted_data, test_data):
 if __name__ == '__main__':
     #filter dataset
     formatted_data = []
-    iris_csv = r"C:\Users\Radhika\Desktop\datasets\iris.csv"
+    iris_csv = r"data\iris.csv"
     with open (iris_csv) as f:
         line_count = 0
         data = csv.reader(f, delimiter=',')

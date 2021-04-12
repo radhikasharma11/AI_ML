@@ -28,5 +28,5 @@ def recommended_movies_list(dataset_path, test_data):
 
 if __name__ == '__main__':
     the_post = [7.2, 1, 1, 0, 0, 0, 0, 1, 0]  # feature vector of The Post
-    dataset_path = r"C:\Users\Radhika\Desktop\datasets\movies_recommendation_data.csv"
+    dataset_path = r"data/movies_recommendation_data.csv"
     recommended_movies_list(dataset_path, the_post)
